@@ -16,3 +16,9 @@ const colors = {
   fighting: "#E6E60d4",
   normal: "#F5F5F5",
 };
+
+const fetchPokemons = () => {
+  for (let i = 1; i <= pokemon_count; i++) {
+    await.getPokemon(i);
+  }
+};
